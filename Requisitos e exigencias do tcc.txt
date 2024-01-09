@@ -47,7 +47,7 @@ tema que achar mais interessante, mas é importante que esse seja um problema RE
 sua organização ou para a sociedade. É muito importante que nessa primeira etapa você defina
 muito bem a pergunta que o seu trabalho vai resolver usando as técnicas e ferramentas da
 Engenharia de Dados.
-
+ 
 2. Modelagem conceitual e definição das Tecnologias/Ferramentas/Arquitetura
 A partir da clara definição do seu problema, você deve agora buscar as fontes de dados para o seu
 projeto, fazer a modelagem de dados, identificar as tecnologias/ferramentas que serão utilizadas em

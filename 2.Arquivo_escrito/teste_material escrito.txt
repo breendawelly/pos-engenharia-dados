@@ -1,0 +1,41 @@
+PROPOSTA 1!
+TEMA: 
+    Condições da Via e Acidentes Fatais: Como as diferentes condições da via, como pavimentação, sinalização, iluminação e estado do tempo, influenciam de maneira distinta a ocorrência de acidentes fatais em comparação com acidentes não fatais? O diferencial aqui é a análise detalhada de como esses elementos específicos impactam diretamente na gravidade dos acidentes.
+
+1. Condições da Via e Acidentes Fatais:
+
+1.1. Contextualização:
+
+Na cidade de Recife, a segurança viária é uma preocupação constante devido ao número significativo de acidentes de trânsito. Compreender como as condições da via estão diretamente relacionadas aos acidentes fatais é crucial para reduzir o impacto desses incidentes na comunidade.
+1.2. O Problema Proposto:
+
+Why? Por que é importante? Reduzir a incidência de acidentes fatais é essencial para preservar vidas, melhorar a qualidade de vida da população e minimizar os custos socioeconômicos associados.
+Who? Os dados são provenientes dos registros de acidentes fatais mantidos pelo órgão de trânsito municipal.
+What? Objetivos: Analisar como diferentes condições da via impactam na gravidade dos acidentes, com foco nas ocorrências fatais.
+Where? Localização: Cidade de Recife, Pernambuco, Brasil.
+When? Período: Análise dos acidentes de trânsito com vítimas fatais ocorridos entre os anos de 2015 e 2022.
+
+
+PROPOSTA 2!
+ERA SOBRE DESABAMENTO
+
+
+
+fazer a modelagem de dados, identificar as tecnologias/ferramentas que serão utilizadas em
+cada etapa (preparação e ingestão, orquestração, processamento, e visualização).
+
+Após a obtenção dos seus dados, é momento de elaborar rotinas para a ingestão de dados
+(preparação, ETL, workflows, carga e armazenamento, streaming). A sua solução deve apresentar um
+mecanismo automatizado (processos ETL) 
+
+
+qual o tipo de acidente é mais recorrente por regiao em recife
+qual o perfil de acidente que tem mais vitimas fatais na cidade do recife e reduzir as variavgeis que contribuem para isso. 
+qual o perfil do motorista que sofre mais acidentes fatais em recife?
+
+
+Condições da Via: Qual a relação entre as condições da via (como condições climáticas, tipo de via, iluminação) e a ocorrência de acidentes fatais?
+
+Padrões Temporais: Existe algum padrão sazonal ou variação ao longo do dia/semana/mês no registro de acidentes fatais?
+
+Comparação de Tipos de Acidentes: Há diferenças significativas entre acidentes fatais e não fatais em termos de localização ou condições da via?b 
