@@ -70,7 +70,9 @@ desenvolvimento de procedimento adicional para visualizar as alterações dos da
 
 4. Orquestração de Dados
 Nessa etapa você vai elaborar rotinas para a orquestração de dados. Deixe bem claro em seu
-documento quais foram as estratégias utilizadas. 5. Visualização dos dados
+documento quais foram as estratégias utilizadas. 
+
+5. Visualização dos dados
 Nessa última etapa você deve elaborar rotinas para a visualização dos dados através de painéis de
 indicadores, dashboards, etc.
 
