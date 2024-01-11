@@ -105,6 +105,23 @@ no fórum de discussão. Bom trabalho!
 
 
 
+-----------------------------------------------------------------------------
+anotações
 
+1. Análise Inicial dos Dados
+Dê uma olhada nos primeiros registros de cada DataFrame (df.head()) para entender a estrutura e o formato dos dados.
+Verifique os tipos de dados, identifique colunas relevantes e avalie se há necessidade de conversões.
+2. Limpeza de Dados
+Trate valores ausentes, duplicatas e quaisquer inconsistências nos dados.
+Verifique se os dados estão em um formato que facilita a análise.
+3. Transformação de Dados
+Se necessário, faça transformações nos dados para atender aos requisitos do seu projeto.
+Crie novas colunas, aplique funções de agregação, etc.
+4. União dos DataFrames
+Considere se faz sentido unir os DataFrames (por exemplo, concatenar ou mesclar) ou se você manterá análises separadas.
+5. Documentação
+Adicione comentários ao seu código para explicar as etapas importantes.
+Se necessário, crie um notebook Markdown para documentar as decisões de transformação e limpeza.
+Se você tiver alguma dúvida específica ou quiser orientações sobre uma etapa específica, sinta-se à vontade para compartilhar!
 
 
