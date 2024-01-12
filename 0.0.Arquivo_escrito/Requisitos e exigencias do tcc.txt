@@ -125,3 +125,22 @@ Se necessário, crie um notebook Markdown para documentar as decisões de transf
 Se você tiver alguma dúvida específica ou quiser orientações sobre uma etapa específica, sinta-se à vontade para compartilhar!
 
 
+Verificação de Dados:
+
+Certifique-se de que os dados foram carregados corretamente, verificando as primeiras linhas do DataFrame (head()).
+Confira se os tipos de dados de cada coluna estão corretos.
+Tratamento de Dados Ausentes:
+
+Verifique se há dados ausentes (NaN) e decida como tratá-los. Você pode preenchê-los com valores padrão, remover linhas ou colunas, ou aplicar técnicas mais avançadas de imputação.
+Tratamento de Dados Duplicados:
+
+Verifique se há duplicatas nos dados e remova-as, se necessário, para evitar distorções nos resultados da análise.
+Padronização de Nomes de Colunas:
+
+Certifique-se de que os nomes das colunas estão em um formato consistente e amigável.
+Conversão de Tipos de Dados:
+
+Se necessário, converta os tipos de dados das colunas para otimizar o uso de memória e garantir a consistência.
+Exploração Inicial:
+
+Realize uma exploração inicial dos dados para entender suas características e identificar possíveis padrões ou peculiaridades.
