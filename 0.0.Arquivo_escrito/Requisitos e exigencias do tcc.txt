@@ -144,3 +144,48 @@ Se necessário, converta os tipos de dados das colunas para otimizar o uso de me
 Exploração Inicial:
 
 Realize uma exploração inicial dos dados para entender suas características e identificar possíveis padrões ou peculiaridades.
+
+
+
+http://dados.recife.pe.gov.br/dataset/area-urbana/resource/698d8fe1-d30a-485f-8d5d-307d46163d0c?inner_span=True
+
+https://pt.wikipedia.org/wiki/Predefini%C3%A7%C3%A3o:Subdivis%C3%B5es_de_Recife
+
+http://dados.recife.pe.gov.br/dataset/area-urbana/resource/8740c5db-2670-474f-895a-70a0628a7ed1
+
+diario de tcc
+11/01/24 
+nao usarei mais a base de 2018 pq as informações a respeito de condições da via estao muito sujas. com muitos nulos em comparação as bases dos anos posteriores
+
+a base de 2019 nao tem dados duplicados
+
+campos que serão usados de 2019 (definir chave primaria)
+DATA
+hora
+natureza_acidente - com vitima/semvitima
+situacao	
+bairro
+bairro_cruzamento (comparar com bairro pra entender se é a mesma coisa)
+tipo - tipo colisao
+auto	
+moto	
+ciclom	
+ciclista	
+pedestre	
+onibus	
+caminhao	
+viatura	
+outros	
+vitimas - entender se o numero que retorna aqui e o numero de pessoas
+acidente_verificado	
+tempo_clima
+sinalizacao	
+condicao_via	
+conservacao_via
+mao_direcao 
+
+ver o padrao dos ultimos anos nos campos nulos e replicar
+
+no de/para de bairros acima, usar a chave primaria de barrios (ver se ta tudo maiusculo ou menusculo)
+
+https://chat.openai.com/share/adfc4654-6f3d-44e0-ae79-c9b54c264bb5
