@@ -189,3 +189,13 @@ ver o padrao dos ultimos anos nos campos nulos e replicar
 no de/para de bairros acima, usar a chave primaria de barrios (ver se ta tudo maiusculo ou menusculo)
 
 https://chat.openai.com/share/adfc4654-6f3d-44e0-ae79-c9b54c264bb5
+
+diaria dia 13
+ajustar metadado de bairros do recife
+pequena vitoria do dia = meu primeiro merge
+
+pendencias de hoje
+dropar a coluna de rgiao
+mergiar o csv de rpa-ragiao na staging
+fazer metadata de bairro 
+entender como ficará a modelagem dos dados
