@@ -199,3 +199,5 @@ dropar a coluna de rgiao
 mergiar o csv de rpa-ragiao na staging
 fazer metadata de bairro 
 entender como ficará a modelagem dos dados
+
+LIMPAR NULOS NO RPA DA STAGIN
