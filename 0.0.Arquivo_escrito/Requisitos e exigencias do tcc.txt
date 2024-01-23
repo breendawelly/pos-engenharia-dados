@@ -184,6 +184,33 @@ condicao_via
 conservacao_via
 mao_direcao 
 
+CAMPOS DE 2020
+
+DATA
+hora
+natureza_acidente
+situacao	
+bairro
+tipo
+auto	
+moto	
+ciclom	
+ciclista	
+pedestre	
+onibus	
+caminhao	
+viatura	
+outros	
+vitimas 
+acidente_verificado	
+tempo_clima
+sinalizacao	
+condicao_via	
+conservacao_via
+mao_direcao 
+
+
+
 ver o padrao dos ultimos anos nos campos nulos e replicar
 
 no de/para de bairros acima, usar a chave primaria de barrios (ver se ta tudo maiusculo ou menusculo)
@@ -201,3 +228,29 @@ fazer metadata de bairro
 entender como ficará a modelagem dos dados
 
 LIMPAR NULOS NO RPA DA STAGIN
+
+
+23/01
+mudar a sequencia das colunas se for necessario
+mudar o nome dos campos de natureza-acidente e acidente-verificado
+checar campo de 2021 ok
+terminar 2022
+
+1- deixar todas as bases identicas (mesmo tratamento) e cruza apenas uma vez
+2.concat()
+3. ver se os bairros realmente nao estao nas bases
+'ESTÂNCIA' 'BOMBA DO HEMETÉRIO' 'GRAÇAS' 'SÃO JOSÉ' 'SANTO ANTÔNIO'
+ 'TORREÃO' 'POÇO DA PANELA' 'TOTÓ' 'JARDIM SÃO PAULO' 'VÁRZEA' 'HIPÓDROMO'
+ 'BAIRRO DO RECIFE' 'CAXANGÁ' 'OUTROS' 'ALTO JOSÉ BONIFÁCIO' 'JORDÃO'
+ 'ÁGUA FRIA' 'TEJIPIÓ' 'ALTO JOSÉ DO PINHO' 'JIQUIÁ' 'DOIS IRMÃOS'
+ 'TORRÕES' 'MORRO DA CONCEIÇÃO' 'JOANA BEZERRA' 'CÓRREGO DO JENIPAPO'
+ 'CIDADE UNIVERSITÁRIA' 'CAÇOTE' 'SÍTIO DOS PINTOS' 'FUNDÃO'
+ 'ALTO SANTA TERESINHA' 'BRASÍLIA TEIMOSA'
+
+
+3- fazer tudo virar csv e carregar em dados-carregados-tratados
+
+
+fazer tudo local depois partir para aws
+aws- salvar no lambda a automação
+s3 - salvar a base de dados
