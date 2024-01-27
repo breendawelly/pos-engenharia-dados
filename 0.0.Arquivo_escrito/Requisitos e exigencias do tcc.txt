@@ -254,3 +254,15 @@ terminar 2022
 fazer tudo local depois partir para aws
 aws- salvar no lambda a automação
 s3 - salvar a base de dados
+
+Agendamento Automático: Utilize ferramentas de orquestração, como Apache Airflow ou cron jobs, para agendar automaticamente os processos ETL em intervalos regulares.
+
+Monitoramento e Alertas: Implemente monitoramento contínuo para identificar falhas ou atrasos nos processos ETL. Configure alertas para notificar a equipe em caso de problemas.
+
+Fluxo de Dependências: Defina dependências entre diferentes etapas do processo ETL para garantir que elas sejam executadas na ordem correta.
+
+Paralelização: Se viável, considere a paralelização de tarefas para otimizar o desempenho e reduzir o tempo total de execução.
+
+Log de Execução: Mantenha registros detalhados de cada execução do processo ETL, incluindo informações sobre sucesso, falhas e desempenho.
+
+Escalonamento Dinâmico: Implemente uma estratégia que permita o escalonamento dinâmico de recursos computacionais conforme necessário, especialmente se o volume de dados variar ao longo do tempo.
