@@ -266,3 +266,60 @@ Paralelização: Se viável, considere a paralelização de tarefas para otimiza
 Log de Execução: Mantenha registros detalhados de cada execução do processo ETL, incluindo informações sobre sucesso, falhas e desempenho.
 
 Escalonamento Dinâmico: Implemente uma estratégia que permita o escalonamento dinâmico de recursos computacionais conforme necessário, especialmente se o volume de dados variar ao longo do tempo.
+
+
+s3-recife-accidents-data
+layer-acidentes-recife
+
+sudo amazon linux extras install python 3.8
+
+
+sudo amazon-linux-extras install python3.8
+
+python3.8 get-pip.py --user
+
+
+mkdir python
+
+
+
+python3.8 -m pip install pandas -t python/
+
+
+
+zip -r layer.zip python
+
+
+aws lambda publish-layer-version --layer-name pandas-layer --zip-file fileb://layer.zip --compatible-runtimes python3.8 --region us-east-1
+
+
+
+
+
+
+todo que for read-csv voce vai ter que ler de um s3 (como fazer lambda ler um csv no s3)
+
+
+linha 153 salvar o retorno no s3 (data-processed)
+
+eventbridger (orquestração)
+cron execução mensal
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
