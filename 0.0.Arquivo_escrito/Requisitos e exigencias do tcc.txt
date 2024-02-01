@@ -296,7 +296,7 @@ aws lambda publish-layer-version --layer-name pandas-layer --zip-file fileb://la
 
 
 
-
+31/01
 todo que for read-csv voce vai ter que ler de um s3 (como fazer lambda ler um csv no s3)
 
 
