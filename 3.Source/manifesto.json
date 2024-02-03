@@ -1,0 +1,12 @@
+
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://s3-recife-accidents-data/1.data_processed/spec_acidentes_transito_recife.csv"
+            ]
+        }
+
+    ]
+}
+                            

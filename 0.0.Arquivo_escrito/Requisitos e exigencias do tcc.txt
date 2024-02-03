@@ -153,6 +153,7 @@ https://pt.wikipedia.org/wiki/Predefini%C3%A7%C3%A3o:Subdivis%C3%B5es_de_Recife
 
 http://dados.recife.pe.gov.br/dataset/area-urbana/resource/8740c5db-2670-474f-895a-70a0628a7ed1
 
+
 diario de tcc
 11/01/24 
 nao usarei mais a base de 2018 pq as informações a respeito de condições da via estao muito sujas. com muitos nulos em comparação as bases dos anos posteriores

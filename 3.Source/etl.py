@@ -152,8 +152,8 @@ df_unido = pd.merge(df_total, bairros_recife, how='left', left_on='BAIRRO', righ
 # Unir os DataFrames com base no campo "RPA"
 df_final = pd.merge(df_total, regiao, how='left', left_on='RPA', right_on='RPA')
 
-
-
+# Exportar como csv
+df_final.to_csv()
 
 
 
